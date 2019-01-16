@@ -1,0 +1,127 @@
+.staff{
+  display: flex;
+  flex-direction: row;
+  margin:0 20px;
+}
+
+.staff-menu{
+  min-width: 300px;
+}
+
+.staff-body{
+  flex:1;
+  margin-left:20px;
+}
+
+.section-header{
+  display:flex;
+  color:white;
+  background-color:#05386B;
+  align-items: center;
+  outline:none;
+  border:none;
+}
+
+.section-header span{
+  font-size:16pt;
+}
+
+.section-restrict{
+  max-height:500px;
+  overflow:auto;
+}
+
+.text-center{
+  text-align:center;
+}
+
+/* section id presets */
+#ticket-statistics,
+#opened-tickets,
+#closed-tickets,
+#task-statistics,
+#opened-tasks,
+#closed-tasks,
+#invoice-statistics,
+#paid-invoice,
+#unpaid-invoice,
+#create-invoice{
+  background-color:#8EE4AF;
+  padding: 20px;
+}
+
+.oldest-heading{
+  font-size:24pt;
+  color:white;
+  text-align: center;
+}
+
+.stats{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size:16pt;
+  flex-wrap: wrap;
+}
+
+.ticket-wrapper,
+.task-wrapper,
+.invoice-wrapper{
+  display:flex;
+  flex-direction: column;
+  background-color:#379683;
+  padding:10px;
+  margin-bottom:20px;
+  width:100%;
+}
+
+.ticket-title,
+.task-title,
+.invoice-title{
+  font-size:24pt;
+  padding:5px 10px;
+}
+
+.ticket-text,
+.task-text,
+.invoice-text{
+  font-size:14pt;
+  padding:5px 10px;
+}
+
+.ticket-wrapper a button,
+.task-wrapper a button,
+.invoice-wrapper a button,
+.create-invoice-wrapper button{
+  background-color:#05386B;
+  color:white;
+}
+
+/* Create Invoice */
+.create-invoice-wrapper form{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.create-invoice-wrapper form textarea{
+  resize:none;
+  margin:10px 0;
+}
+
+.create-invoice-wrapper button{
+  margin-top:10px;
+}
+
+@media (max-width:850px){
+  .staff{
+    flex-direction: column;
+  }
+
+  .staff-body{
+    margin-left:0;
+    margin-top:20px;
+  }
+
+
+}

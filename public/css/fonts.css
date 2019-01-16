@@ -1,0 +1,72 @@
+
+/* rhode medium normal */
+.r-mn{
+  font-family: rhode,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* rhode bold normal */
+.r-bn{
+  font-family: rhode,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Rhode MediumCondensed */
+.r-mc{
+  font-family: rhode-condensed, sans-serif;
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+/* Rhode BoldCondensed */
+.r-bc{
+  font-family: rhode-condensed, sans-serif;
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+/* Rhode MediumExtended */
+
+.r-me{
+font-family: rhode-extended, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+}
+
+/* Rhode BoldExtended */
+
+.r-be{
+font-family: rhode-extended, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+}
+
+/* Rhode MediumWide */
+
+.r-mw{
+font-family: rhode-wide, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+}
+
+/* Rhode BoldWide */
+
+.r-bw{
+font-family: rhode-wide, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+}

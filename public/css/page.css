@@ -1,0 +1,83 @@
+.page-wrapper{
+  background-color:#8EE4AF;
+  width:50%;
+  margin: 0 auto;
+}
+
+.page-title{
+  background-color:#05386B;
+  color:white;
+  padding:20px;
+  text-align:center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-description{
+  text-align:center;
+  padding:20px 0;
+}
+
+.page-reply-description{
+  text-align: center;
+  padding:10px 0;
+  margin-bottom:10px;
+}
+
+.page-reply-title{
+  padding:5px 0;
+  font-size:14pt;
+}
+
+.page-reply-description:nth-child(odd){
+  background-color: #379683;
+}
+
+/*  */
+
+.page-form form{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  padding:20px;
+}
+
+.page-form form button{
+  margin-top:10px;
+}
+
+/*  */
+
+.page-reply-wrapper{
+  padding:10px 20px;
+}
+
+.page-reply-wrapper:nth-child(odd)
+{
+  background-color:#5CDB95;
+}
+
+.page-reply-header{
+
+}
+
+.page-reply-description{
+
+}
+
+/*  */
+
+.close-form div{
+  display:flex;
+}
+
+.close-form button{
+  background-color: #8EE4AF;
+  color:white;
+  border:none;
+  outline:none;
+  font-size:14pt;
+  padding:10px 20px;
+}

@@ -1,0 +1,125 @@
+/* User */
+.signed-in{
+  font-size:28pt;
+  text-align: center;
+  color: #05386B;
+}
+
+.signed-in span{
+  color:white;
+}
+
+.signed-in-wrapper{
+  display:flex;
+  justify-content: center;
+}
+
+.signed-in form button,
+.signed-in-wrapper a button{
+  font-size: 12pt;
+  border:none;
+  padding:5px 20px;
+  background-color: #05386B;
+  color:white;
+  margin:0 5px;
+}
+
+.signed-in form button:hover,
+.signed-in-wrapper a button:hover{
+  cursor: pointer;
+}
+
+/* Mod */
+
+/* Sections */
+.support-wrapper,
+.invoice-wrapper{
+  overflow: auto;
+  height: 500px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent !important;
+}
+
+.ticket,
+.invoice{
+  margin:20px;
+  height:400px;
+}
+
+.ticket-description,
+.invoice-description{
+  overflow:auto;
+}
+
+/* Other */
+
+.middle-title{
+  font-size: 32pt !important;
+}
+
+/* Card */
+.card{
+  background-color:#05386B;
+  color:white;
+  border: none;
+  border-radius: 0 !important;
+  width:25%;
+}
+
+.card-header{
+  text-align: center;
+  font-size: 16pt;
+}
+
+.card-body{
+  background-color:#379683;
+  border:none;
+}
+
+.portal-card-footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.portal-card-footer a{
+  color:white;
+  text-decoration: none;
+  background-color:#379683;
+  padding:5px 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width:1100px)
+{
+  /* Sections */
+  .support-wrapper,
+  .invoice-wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .ticket,
+  .invoice{
+    flex-basis:75%;
+  }
+}
+
+@media only screen and (max-width:768px)
+{
+  /* Sections */
+  .support-wrapper,
+  .invoice-wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .ticket,
+  .invoice{
+    flex-basis:100%;
+  }
+}
